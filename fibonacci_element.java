@@ -2,7 +2,7 @@ import java.util.*;
 
 class FibonacciElement {
 	public static void main(String args[]) {
-		System.out.print("enter number of elements:");
+		System.out.print("enter the  value of n:");
 		Scanner sc = new Scanner(System.in);
 		int n=sc.nextInt();
 		int n1=0,n2=1,n3;
@@ -20,7 +20,7 @@ class FibonacciElement {
 			}
 		
 		}
-		System.out.println(n2);
+		System.out.println("The nth element in the fibonacci series is"+n2);
 		
 		
 	}
