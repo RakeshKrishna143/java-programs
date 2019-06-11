@@ -5,9 +5,9 @@ public class FindDuplicateChar {
 		String s;
 		Scanner sc = new Scanner(System.in);
 		s=sc.nextLine();
-		FindDuplicateChar output = new FindDuplicateChar(s);
+		FindDuplicateChar(s);
 	}
-	FindDuplicateChar(String s){
+	public static void FindDuplicateChar(String s){
 		Map<Character,Integer> map=new HashMap<Character,Integer>();
 		char ch[]=s.toCharArray();
 		for (char c:ch) {
